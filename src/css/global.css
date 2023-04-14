@@ -1,0 +1,92 @@
+/*
+colour schema
+
+nav panel: #323437
+nav panel hover: #2C2E31
+anchor hover colour: #CA4764
+content panel: #646669
+logotext: #E2B714
+
+*/
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+  
+  /* Set the width of the navigation panel */
+.nav {
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #323437;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for nav buttons container */
+.navButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+/* Style for navigation links */
+.navButtons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: #fff;
+    
+}
+  
+/* Style for navigation link hover effect */
+.navButtons a:hover {
+    background-color: #2C2E31;
+    color: #CA4764;
+}
+
+/* Style for logo container */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+
+.logo-container:hover{
+    background-color: #E2B714;
+}
+  
+/* Style for logo image */
+.logo-image {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 5vh auto;
+}
+  
+/* Style for logo text */
+.logo-text {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Set the width of the content panel */
+.content {
+    width: 90vw;
+    height: 100vh;
+    margin-left: 10vw;
+    background-color: #646669;
+}
