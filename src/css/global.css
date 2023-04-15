@@ -6,6 +6,7 @@ nav panel hover: #2C2E31
 anchor hover colour: #CA4764
 content panel: #646669
 logotext: #E2B714
+default text color: #CBCAC5
 
 */
 
@@ -44,7 +45,7 @@ logotext: #E2B714
     align-items: center;
     justify-content: center;
     height: 10vh;
-    color: #fff;
+    color: #CBCAC5;
     
 }
   
@@ -76,7 +77,7 @@ logotext: #E2B714
   
 /* Style for logo text */
 .logo-text {
-    color: #fff;
+    color: #CBCAC5;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 10px;
